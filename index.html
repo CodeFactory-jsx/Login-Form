@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container1">
+        <div class="image-container">
+          <figure>
+            <img
+              src="css.png"
+              alt="headphone with black background"
+            />
+          </figure>
+          <!-- <img src="form.jpg" alt="Beautiful Scenery" /> -->
+        </div>
+        <div class="text-container">
+          <h1>Hi Their Welcome to Form104</h1>
+          <p>
+            Experience the wonders of nature. Discover the beauty of landscapes,
+            wildlife, and the calming essence of the world around us. Let your
+            journey into the wild begin today! Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Quam saepe, quisquam labore quidem ut
+            explicabo cumque iusto, cupiditate nesciunt culpa placeat cum omnis
+            error! Molestias eos hic ut earum nesciunt.
+          </p>
+        </div>
+      </div>
+      <div class="glowing-border">
+        <div class="circle"></div>
+        <!-- ------------inputsection---------------- -->
+        <form onsubmit="return data()" action="connected.html">
+            <div class="inputs">
+              <label>NAME</label>
+              <input type="name" placeholder="enter your name" id="name"/>
+              <label>EMAIL</label>
+              <input type="email" placeholder="example@test.com" id="email"/>
+              <div class="passImg">
+                  <label>PASSWORD</label>
+                  <input type="password" placeholder="Min 6 charaters long" id="password"/>
+                  <div class="toggle1" id="toggleid1" onclick="showHide1()">Show</div>
+              </div>
+              <div class="passImg">
+              <label>CONFIRM PASSWORD</label>
+              <input type="password" placeholder="Min 6 charaters long" id="confirmpassword"/>
+              <div class="toggle2" id="toggleid2" onclick="showHide2()">Show</div>
+              </div>
+            </div>
+            <button type="submit">SIGNUP</button>
+      </form>
+      </div>
+    </div>
+    <!-- ------------------------------ -->
+     <script src="script.js"></script>
+  </body>
+</html>
